@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.telusko.springdemo.App",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "SpringdemoApplication",
+            "request": "launch",
+            "mainClass": "com.telusko.springdemo.SpringdemoApplication"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-FirstprojApplication<firstproj>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.telusko.firstproj.FirstprojApplication",
+            "projectName": "firstproj",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
